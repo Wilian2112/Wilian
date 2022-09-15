@@ -8,6 +8,7 @@
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.2375" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2375" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/drawable/icons.xml" value="0.2375" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/drawable/radius.xml" value="0.2745" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/drawable/radius_botoes.xml" value="0.25" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/drawable/radius_edttext.xml" value="0.2745" />
@@ -15,6 +16,7 @@
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/layout/activity_popupcodigo.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.33" />
+        <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/layout/activity_tela_estoque.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/layout/activity_tela_recuperar_conta.xml" value="0.13272543059777103" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/layout/popup_esquceusenha.xml" value="0.24967948717948718" />
         <entry key="..\:/Users/moc/AndroidStudioProjects/ProjetoTCC/app/src/main/res/layout/popupcodigo.xml" value="0.27291666666666664" />
