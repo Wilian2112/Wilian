@@ -13,11 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar"
         tools:targetApi="31">
+<<<<<<< HEAD
         <activity
             android:name=".TelaCadastro"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+=======
+        <activity
+            android:name=".TelaEstoque"
+            android:exported="false"/>
+        <activity
+            android:name=".TelaCadastro"
+            android:exported="false" />
+        <activity
+            android:name=".TelaLogin"
+>>>>>>> e55bd9fccd09c3e0b0a55455aeccbf8044769e18
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
