@@ -21,6 +21,7 @@ public class TelaLogin extends AppCompatActivity {
 
     private Dialog RetrieveAccount,ConfirmCode,RedefinePassword;
     TextView txtForgotPassword, txtRegister, txtResend;
+    Button btnLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class TelaLogin extends AppCompatActivity {
         RetrieveAccount = new Dialog(this);
         txtForgotPassword = findViewById(R.id.txtForgotPassword);
         txtRegister = findViewById(R.id.txtRegister);
+        btnLogin = findViewById(R.id.btnLogin);
 
         SpannableString FG = new SpannableString("Esqueceu Senha?");
         SpannableString RG = new SpannableString("Cadastrar");
@@ -45,6 +47,15 @@ public class TelaLogin extends AppCompatActivity {
 
         txtForgotPassword.setMovementMethod(LinkMovementMethod.getInstance());
         txtRegister.setMovementMethod(LinkMovementMethod.getInstance());
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Login = new Intent(TelaLogin.this,Home.class);
+                startActivity(Login);
+            }
+        });
+
     }
 
     private void ShowEmailPopup(View view){
@@ -109,5 +120,6 @@ public class TelaLogin extends AppCompatActivity {
             RG.setUnderlineText(true);
         }
     }
+
 
 }

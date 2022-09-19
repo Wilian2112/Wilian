@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-<<<<<<< HEAD
-
-        <solid
-            android:color="#CC0A454B"
-=======
         <solid
             android:color="#FFFFFF"
->>>>>>> e55bd9fccd09c3e0b0a55455aeccbf8044769e18
             >
         </solid>
         <corners
@@ -15,9 +9,5 @@
             android:topRightRadius="30dp"
             android:bottomLeftRadius="30dp"
             android:bottomRightRadius="0dp">
-<<<<<<< HEAD
-
-=======
->>>>>>> e55bd9fccd09c3e0b0a55455aeccbf8044769e18
     </corners>
 </shape>

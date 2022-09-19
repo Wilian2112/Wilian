@@ -1,58 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".TelaEstoque">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:layout_width="42dp"
-            android:layout_height="42dp"
-            android:layout_marginLeft="10"
-            android:background="@color/white"
-            android:src="@drawable/perfil"
-            tools:ignore="SpeakableTextPresentCheck"></ImageButton>
-
-        <SearchView
-            android:layout_width="340dp"
-            android:layout_height="40dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="10dp"
-            android:background="@drawable/radius_edttext"
-            android:iconifiedByDefault="false"
-            android:queryHint="Pesquisar"></SearchView>
-    </LinearLayout>
-
-    <ImageButton
-        android:layout_width="321dp"
-        android:layout_height="51dp"
-        android:src="@drawable/adicionar"
-        android:layout_marginTop="3dp"
-        android:layout_gravity="center"
-        android:background="@drawable/radius_botoes"
-        android:contentDescription="@string/button_icon_desc"
-    />
-    <LinearLayout
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:background="@drawable/barra_navegacao"
+        android:paddingTop="10dp"
+        app:itemIconSize="30dp"
+        app:menu="@menu/item_barra_nacegacao"
+        app:itemRippleColor="@color/white"
+        app:itemIconTint="@color/icon_colors"
+        ></com.google.android.material.bottomnavigation.BottomNavigationView>
 
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@color/white"
-        android:src="@drawable/img_1"
-        ></ImageButton>
-
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>

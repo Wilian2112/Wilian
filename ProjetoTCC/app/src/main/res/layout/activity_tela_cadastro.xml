@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-=======
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> e55bd9fccd09c3e0b0a55455aeccbf8044769e18
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TelaCadastro">
 
-<<<<<<< HEAD
-</androidx.constraintlayout.widget.ConstraintLayout>
-=======
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -115,6 +108,7 @@
             android:background="@drawable/radius_botoes"
             android:fontFamily="@font/poppinsregular"
             android:text="Cadastrar"
+            android:paddingTop="5dp"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -127,11 +121,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:paddingLeft="108dp"
-            android:text="Já Possui uma Conta? Entrar"
+            android:text="Já possui uma conta? Entrar"
             android:textColor="@color/black"
             android:textSize="14dp" />
         ></LinearLayout>
 
 
 </LinearLayout>
->>>>>>> e55bd9fccd09c3e0b0a55455aeccbf8044769e18
