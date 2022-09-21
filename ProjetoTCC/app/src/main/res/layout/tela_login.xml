@@ -96,7 +96,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnRegisterScreenRegister"
         android:layout_width="243dp"
         android:layout_height="48dp"
         android:layout_marginTop="80dp"
